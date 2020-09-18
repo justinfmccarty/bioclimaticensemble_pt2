@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: absolute;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #000000;
+  scroll-snap-align: start;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  color: #000000;
+  scroll-snap-align: start;
+}
+
+section h1 {
+  padding-top: 40vh;
+  text-align: center;
+  font-size: 10vh;
+  color: #000000;
+}
+
+section p {
+  padding-top: 10px;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  color: #000000;
+}
+
+section h2 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
